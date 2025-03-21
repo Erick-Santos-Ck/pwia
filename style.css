@@ -9,7 +9,7 @@ html,body {
     background-color: #cccccc;
 }
 div {
-    border:1px solid #000000 ;
+    border: none     #000000 ;
 }
 
 html,body{
@@ -22,6 +22,7 @@ html,body{
     width: 268px; ;
    height: 474px; ;
    background-color: #ffffff; 
+
 }
 
 .img-card{
@@ -32,29 +33,31 @@ html,body{
 .descricao{
     font-size:  17px; 
     font-family: impact;
-    font-weight: bold       ;  
+    font-weight: impact  ;  
     padding: 10px 10px ;
-    color: #000000;
+    color: #2c1e1e;
 }
 .preco{
     font-size: 25;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #11470a;
     font-weight: arial  ;
-    padding: 10px 7px;
+    padding: 10px 10px;
+    background-color: #ffffff;
 }
 .pagamento{
-    color: #b64545;
+    color: #b92a2a;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 12px;
-    font-size: 18px;
+    padding: 5px 3px;
+    font-size: 17px;
+    background-color: #ffffff;
 }
 .button-card{
     background-color: #072c57;
     color: #ffffff;
     font-weight: bold;
     width: 100%;    
-    height: 25px;
+    height: 25px;   
     font-size: 15px;
     text-align: center;
 }
