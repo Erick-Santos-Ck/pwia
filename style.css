@@ -8,7 +8,7 @@ html,body {
     height: 100%;
     background-color: #cccccc;
 }
-div {
+div {   
     border: none     #000000 ;
 }
 
@@ -16,12 +16,14 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #cccccc;
+    background-color: #FFFFFF;
 }
 .card{
     width: 268px; ;
-   height: 474px; ;
-   background-color: #ffffff; 
+   height: 550px; ;
+   background-color: #CCCCCC; 
+   margin: 25px;
+
 
 }
 
@@ -29,6 +31,7 @@ html,body{
     width: 265px; 
     height: 350px;
     margin-top: 50px; 
+    
 }
 .descricao{
     font-size:  17px; 
@@ -53,7 +56,7 @@ html,body{
     background-color: #ffffff;
 }
 .button-card{
-    background-color: #072c57;
+    background-color: #460f8f;
     color: #ffffff;
     font-weight: bold;
     width: 100%;    
@@ -79,4 +82,8 @@ html,body{
     color: #ffffff;
     font-weight: bold;
 }
-
+main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
